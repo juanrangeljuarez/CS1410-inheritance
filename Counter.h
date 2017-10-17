@@ -29,6 +29,7 @@ public:
     CountDn(unsigned int count);
 
     Counter operator--();
+
 };
 
 #endif //INHERITANCE_COUNTER_H
