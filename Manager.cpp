@@ -13,6 +13,7 @@ void Manager::setData()
     cout << "\nEnter golf club dues: ";
     cin >> dues;
     cin.ignore();
+    Student::setEducation();
 }
 
 void Manager::getData()
@@ -20,4 +21,5 @@ void Manager::getData()
     Employee::getData();
     cout << "\nTitle: " << title;
     cout << "\nGolf dues: "<< dues;
+    Student::getEducation();
 }
